@@ -15,5 +15,8 @@ settings/
 
 
 # Ignore Markdown and HTMl files as they should be generated
-*.html
-*.md
+*.index.html
+*.index.md
+
+# Ignore Bash scripts
+*.sh
