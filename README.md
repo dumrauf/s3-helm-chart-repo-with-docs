@@ -129,17 +129,7 @@ Here, the contents of file `dumrauf-helm-charts-repo.index.html` which is automa
 > # Managing the Repository
 > 
 > This section outlines steps for managing Helm chart repository `dumrauf`.
-> It first describes how to upload this document to [http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com) so that visitors can easily access the instructions.
-> Afterwards, it describes how to upload Helm charts and eventually delete them again.
-> 
-> 
-> ## Uploading the `index.html`
-> 
-> It is highly recommended to upload this document as the root `index.html` document to S3 bucket `dumrauf-helm-charts-repo` via
-> ```
-> aws s3 cp dumrauf-helm-charts-repo.index.html s3://dumrauf-helm-charts-repo/index.html
-> ```
-> This allows users visiting page [http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com) with a browser to view this document.
+> It describes how to upload Helm charts and eventually delete them again.
 > 
 > 
 > ## Uploading Helm Charts

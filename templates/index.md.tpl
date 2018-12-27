@@ -46,17 +46,7 @@ helm repo remove ${repository_name}
 # Managing the Repository
 
 This section outlines steps for managing Helm chart repository `${repository_name}`.
-It first describes how to upload this document to [http://${helm_repo_website_endpoint}](http://${helm_repo_website_endpoint}) so that visitors can easily access the instructions.
-Afterwards, it describes how to upload Helm charts and eventually delete them again.
-
-
-## Uploading the `index.html`
-
-It is highly recommended to upload this document as the root `index.html` document to S3 bucket `${full_bucket_name}` via
-```
-aws s3 cp ${index_html_file_name} s3://${full_bucket_name}/index.html
-```
-This allows users visiting page [http://${helm_repo_website_endpoint}](http://${helm_repo_website_endpoint}) with a browser to view this document.
+It describes how to upload Helm charts and eventually delete them again.
 
 
 ## Uploading Helm Charts
