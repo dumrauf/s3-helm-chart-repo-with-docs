@@ -2,7 +2,7 @@
 
 This repository contains a Terraform module that creates a [Helm chart repository](https://docs.helm.sh/developing_charts/#the-chart-repository-guide) using an AWS S3 bucket. The S3 bucket is configured as a static website and contains an auto-generated `index.hml` with instructions on using and managing the Helm chart repository.
 
-A live example can be found at [http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com).
+A live example can be found at [http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com).
 
 
 ## You Have
@@ -80,7 +80,7 @@ repository_name = "dumrauf"
 ```
 files `dumrauf-helm-charts-repo.index.md` and `dumrauf-helm-charts-repo.index.html` are generated.
 
-Here, the contents of file `dumrauf-helm-charts-repo.index.html` which is automatically uploaded to [http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-charts-repo.s3-website-us-east-1.amazonaws.com) as `index.html` are 
+Here, the contents of file `dumrauf-helm-charts-repo.index.html` which is automatically uploaded to [http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com) as `index.html` are 
 > # Helm Chart Repository `dumrauf`
 > 
 > Welcome to the [Helm](https://github.com/helm/helm) [chart repository](https://docs.helm.sh/developing_charts/#the-chart-repository-guide) `dumrauf`.
