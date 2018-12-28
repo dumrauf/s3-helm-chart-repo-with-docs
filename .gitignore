@@ -20,3 +20,6 @@ settings/
 
 # Ignore Bash scripts
 *.sh
+
+# Ignore example-charts
+example-charts/*
