@@ -66,7 +66,7 @@ aws s3 sync ../packaged-helm-charts/ s3://${full_bucket_name}
 
 The Helm charts can be deleted from S3 bucket `${full_bucket_name}` via
 ```
-aws s3 rm s3://${full_bucket_name} --recursive
+aws s3 rm s3://${full_bucket_name} --recursive --exclude index.html
 ```
 
 Note that due to versioning, [additional steps](https://docs.aws.amazon.com/AmazonS3/latest/dev/delete-or-empty-bucket.html#empty-bucket) may be necessary.
