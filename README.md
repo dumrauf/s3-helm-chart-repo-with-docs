@@ -1,6 +1,6 @@
 # A Helm Chart Repository in AWS S3 - With Auto-Generated User Documentation!
 
-This repository contains a Terraform module that creates a [Helm chart repository](https://docs.helm.sh/developing_charts/#the-chart-repository-guide) using an AWS S3 bucket. The S3 bucket is configured as a static website and contains an auto-generated `index.hml` with instructions on using and managing the Helm chart repository.
+This repository contains a Terraform module that creates a [Helm chart repository](https://docs.helm.sh/developing_charts/#the-chart-repository-guide) using an AWS S3 bucket. The S3 bucket is configured as a static website and contains an auto-generated `index.html` with instructions on using and managing the Helm chart repository.
 
 A live example can be found at [http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com).
 
