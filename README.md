@@ -39,6 +39,8 @@ log_bucket_id = "<your-log-bucket-id>"
 ```
 Here, you need to replace the example values with your settings.
 
+Moreover, note that the S3 bucket will be named `${var.repository_name}-${var.bucket_name}`.
+
 
 ## Execution
 
