@@ -4,6 +4,8 @@ This repository contains a Terraform module that creates a [Helm chart repositor
 
 A live example can be found at [http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com).
 
+> For further information, see the corresponding article on [https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/](https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/).
+
 
 ## You Have
 
