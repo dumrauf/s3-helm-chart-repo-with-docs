@@ -6,6 +6,7 @@ A live example can be found at [http://dumrauf-helm-chart-repo.s3-website-us-eas
 
 > For further information, see the corresponding article on [https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/](https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/).
 
+The master branch in this repository is compliant with [Terraform v0.12](https://www.terraform.io/upgrade-guides/0-12.html); a legacy version that is compatible with [Terraform v0.11](https://www.terraform.io/upgrade-guides/0-11.html) is available in branch [terraform@0.11](https://github.com/dumrauf/s3-helm-chart-repo-with-docs/tree/terraform%400.11).
 
 ## You Have
 

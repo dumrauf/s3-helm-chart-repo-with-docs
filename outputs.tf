@@ -8,7 +8,7 @@ locals {
 data "template_file" "helm-chart-repository-index-md" {
   template = "${file("${path.module}/templates/index.md.tpl")}"
 
-  vars {
+  vars = {
     helm_repo_bucket_domain_name = "${aws_s3_bucket.helm-chart-repository.bucket_domain_name}"
     helm_repo_website_endpoint   = "${aws_s3_bucket.helm-chart-repository.website_endpoint}"
     full_bucket_name             = "${local.full_bucket_name}"
@@ -20,7 +20,7 @@ data "template_file" "helm-chart-repository-index-md" {
 data "template_file" "helm-chart-repository-index-html" {
   template = "${file("${path.module}/templates/index.html.tpl")}"
 
-  vars {
+  vars = {
     rendered_markdown = "${data.template_file.helm-chart-repository-index-md.rendered}"
     repository_name   = "${var.repository_name}"
   }

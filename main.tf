@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "helm-chart-repository" {
     index_document = "index.html"
   }
 
-  tags {
+  tags = {
     Terraform             = true
     Helm-Chart-Repository = true
   }
