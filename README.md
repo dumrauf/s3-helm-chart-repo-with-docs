@@ -4,7 +4,7 @@ This repository contains a Terraform module that creates a [Helm chart repositor
 
 A live example can be found at [http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com](http://dumrauf-helm-chart-repo.s3-website-us-east-1.amazonaws.com).
 
-> For further information, see the corresponding article on [https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/](https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/).
+> For further information, see the corresponding article [Build Your Own Helm Chart Repository in S3 — With Auto-Generated User Documentation!](https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/?utm_source=GitHub&utm_medium=social&utm_campaign=README) on [How Hard Can It Be?!](https://www.how-hard-can-it.be/?utm_source=GitHub&utm_medium=social&utm_campaign=README)
 
 The master branch in this repository is compliant with [Terraform v0.12](https://www.terraform.io/upgrade-guides/0-12.html); a legacy version that is compatible with [Terraform v0.11](https://www.terraform.io/upgrade-guides/0-11.html) is available in branch [terraform@0.11](https://github.com/dumrauf/s3-helm-chart-repo-with-docs/tree/terraform%400.11).
 
