@@ -76,5 +76,6 @@ Note that due to versioning, [additional steps](https://docs.aws.amazon.com/Amaz
 
 # About
 
-The Helm chart repository `${repository_name}` and this documentation was created using [https://github.com/dumrauf/s3-helm-chart-repo-with-docs](https://github.com/dumrauf/s3-helm-chart-repo-with-docs) as introduced in article [Build Your Own Helm Chart Repository in S3 — With Auto-Generated User Documentation!](https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/).
-Create your own Helm chart repository with auto-generated documentation and start serving Helm charts in a matter of seconds.
+The Helm chart repository `${repository_name}` and this documentation was created using [https://github.com/dumrauf/s3-helm-chart-repo-with-docs](https://github.com/dumrauf/s3-helm-chart-repo-with-docs) as introduced in article [Build Your Own Helm Chart Repository in S3 — With Auto-Generated User Documentation!](https://www.how-hard-can-it.be/helm-chart-repository-in-s3-with-auto-generated-user-docs/?utm_source=S3HelmChartRepositoryWithDocs&utm_medium=website&utm_campaign=Homepage) on [How Hard Can It Be?!](https://www.how-hard-can-it.be/?utm_source=S3HelmChartRepositoryWithDocs&utm_medium=website&utm_campaign=Homepage).
+
+Create your own Helm chart repository with auto-generated documentation and start serving Helm charts in a matter of seconds!
